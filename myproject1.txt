@@ -1,2 +1,3 @@
 one
 registration page
+here new user can register
