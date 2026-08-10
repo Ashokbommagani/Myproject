@@ -1,0 +1,32 @@
+# Password Security Module
+# Example: secure login with password entry
+
+import getpass
+
+
+def prompt_password():
+    """Ask the user to enter a password securely without echoing it."""
+    password = getpass.getpass("Enter your password: ")
+    return password
+
+
+def verify_password(stored_password, entered_password):
+    """Check whether the entered password matches the stored password."""
+    return stored_password == entered_password
+
+
+def login(stored_password):
+    """Secure login flow."""
+    entered_password = prompt_password()
+
+    if verify_password(stored_password, entered_password):
+        print("Access granted.")
+        return True
+
+    print("Incorrect password.")
+    return False
+
+
+# Example usage
+# stored_password = "MyStrongP@ssword123"
+# login(stored_password)
