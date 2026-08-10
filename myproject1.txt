@@ -6,4 +6,4 @@ this is epic branch
 here latest modifications are done
 verision new updates
 second
-registraion details are done move this file into login page
+register suceess
