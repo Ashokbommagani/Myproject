@@ -1,1 +1,2 @@
-six
+sixth phase is deployment 
+here code wiil be send to client server so that source and run on his servers/systems
